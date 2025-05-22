@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Devinette Architectural Interactif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Styles Architecturaux</h1>
+        <p>Observez l'image ci-dessous. Pour chaque numéro sur l'image, identifiez le bâtiment correspondant et inscrivez dans la case le numéro du style architectural (de la liste ci-dessous) que vous reconnaissez.</p>
+
+        <div id="imageContainer">
+            <img src="ville.jpg" alt="Ville avec différents styles architecturaux" id="villeImage">
+            </div>
+
+        <div id="buildingDescriptionsArea">
+            <h2>Descriptions des Bâtiments (correspondant aux numéros sur l'image) :</h2>
+            <ul id="buildingDescriptionsList">
+                </ul>
+        </div>
+
+
+        <h2>Styles Architecturaux Proposés :</h2>
+        <ul id="styleList">
+            <li>1. Art Déco</li>
+            <li>2. Architecture Organique / Paramétrique</li>
+            <li>3. Architecture High-tech</li>
+            <li>4. Style Paquebot </li>
+            <li>5. Gothique</li>
+            <li>6. Baroque</li>
+            <li>7. Bauhaus</li>
+            <li>8. Brutalisme</li>
+        </ul>
+
+        <button id="submitButton">Vérifier mes réponses</button>
+
+        <div id="resultsArea">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
